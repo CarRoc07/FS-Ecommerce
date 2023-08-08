@@ -32,7 +32,7 @@ export const ContainerFavoriteGeneral = styled.div`
     height: auto;
     position: absolute;
     top: 100px;
-    right: 40px;
+    right: 0;
     padding: 10px;
     color: white;
     opacity: ${({ active }) => (active ? 1 : 0)};
@@ -43,23 +43,21 @@ export const ContainerFavoriteGeneral = styled.div`
     gap: 18px;
     border-bottom-left-radius: 12px;
 
-    @media (max-width: 1350px) {
+    @media (max-width: 1600px) {
         top: 135px;
         right: 0px;
     }
 
     @media (max-width: 600px) {
-        top: 185px;
+        padding: 60px 0px 0px 0px;
     }
 
     @media (max-width: 500px) {
-        top: 163px;
         border-bottom-left-radius: 0px;
     }
 
-    @media (max-width: 350px) {
-        padding: 6px;
-        width: 290px;
+    @media (max-width: 450px) {
+        width: 100%;
     }
 `;
 
@@ -67,6 +65,10 @@ export const TitleFavorite = styled.h2`
     font-size: 28px;
     text-align: end;
     margin-right: 20px;
+
+    @media (max-width: 1500px) {
+        text-align: center;
+    }
 `;
 
 export const ContainerProductsFavorite = styled.div`

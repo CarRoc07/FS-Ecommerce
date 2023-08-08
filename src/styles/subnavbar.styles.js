@@ -22,7 +22,7 @@ export const NavbarContainer = styled.nav`
     -moz-box-shadow: 0px 0px 17px -10px rgba(0,0,0,0.75);
     box-shadow: 0px 0px 17px -10px rgba(0,0,0,0.75);
 
-    @media (max-width: 1000px) {
+    @media (max-width: 1300px) {
         border-radius: 0;
         border: none;
     }

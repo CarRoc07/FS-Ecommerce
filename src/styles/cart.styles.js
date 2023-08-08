@@ -32,7 +32,7 @@ export const ContainerCartGeneral = styled.div`
     height: 450px;
     position: absolute;
     top: 100px;
-    right: 40px;
+    right: 0;
     padding: 12px;
     color: white;
     opacity: ${({ active }) => (active ? 1 : 0)};
@@ -43,23 +43,21 @@ export const ContainerCartGeneral = styled.div`
     gap: 12px;
     border-bottom-left-radius: 12px;
 
-    @media (max-width: 1250px) {
+    @media (max-width: 1500px) {
         top: 135px;
         right: 0px;
     }
 
     @media (max-width: 600px) {
-        top: 185px;
+        padding: 60px 0px 0px 0px;
     }
 
     @media (max-width: 500px) {
-        top: 163px;
         border-bottom-left-radius: 0px;
     }
 
-    @media (max-width: 350px) {
-        padding: 6px;
-        width: 290px;
+    @media (max-width: 450px) {
+        width: 100%;
         height: auto;
     }
 `;
@@ -68,6 +66,10 @@ export const TitleCart = styled.h2`
     font-size: 28px;
     text-align: end;
     margin-right: 20px;
+
+    @media (max-width: 1500px) {
+        text-align: center;
+    }
 `;
 
 export const ContainerProductsCart = styled.div`
