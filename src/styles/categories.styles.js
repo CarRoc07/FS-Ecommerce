@@ -4,10 +4,14 @@ export const Container = styled.div`
     display: flex;
     align-items: center;
     justify-content: center;
-    gap: 32px;
+    gap: 60px;
     height: 300px;
     margin-bottom: 50px;
     padding: 10px;
+
+    @media (max-width: 1350px) {
+        gap: 30px;
+    }
 
     @media (max-width: 1000px) {
         gap: 16px;
@@ -15,7 +19,7 @@ export const Container = styled.div`
         height: auto;
     }
 
-    @media (max-width: 800px) {
+    @media (max-width: 900px) {
         flex-wrap: wrap;
         height: auto;
     }
@@ -39,8 +43,8 @@ export const ContainerCard = styled.div`
     flex-direction: column;
     align-items: center;
     gap: 5px;
-    width: 100px;
-    height: 150px;
+    width: 130px;
+    height: 180px;
     text-align: center;
     background-color: ${(props) => props.color};;
     padding: 27px 20px;
@@ -60,7 +64,8 @@ export const ContainerCard = styled.div`
     }
 
     @media (max-width: 820px) {
-        width: calc(28% - 16px);
+        height: 150px;
+        width: calc(27% - 16px);
     }
     `
 

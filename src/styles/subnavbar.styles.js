@@ -11,7 +11,7 @@ export const NavbarContainer = styled.nav`
     background-color: #ff8717;
     border-radius: 36px;
     color: black;
-    max-width: 1000px;
+    max-width: 1300px;
     margin: 0 auto;
     margin-bottom: -32px;
     box-sizing: border-box;
@@ -35,7 +35,7 @@ export const NavItems = styled.div`
     padding: 16px;
 
     @media (max-width: 500px) {
-        padding: 10px;
+        padding: 10px 0px;
         gap: 5px;
     }
 `;

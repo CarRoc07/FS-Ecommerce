@@ -12,7 +12,7 @@ import { Modal, ModalinfoLogout } from "./components/orders/Modal"
 function App() {
 
   return (
-    <div style={{backgroundColor:'#eee', maxWidth: '1350px', margin: '0 auto', padding: '0', height: '100%'}}>
+    <div style={{backgroundColor:'#eee', maxWidth: '1650px', margin: '0 auto', padding: '0', height: '100%'}}>
       <AuthProvider>
         <ProductsProvider>
           <CartContextProvider>

@@ -8,7 +8,7 @@ export const NavbarContainer = styled.nav`
     justify-content: space-around;
     padding: 14px;
     background-color: #fff;
-    max-width: 1350px;
+    max-width: 1650px;
     margin: 0 auto;
     box-sizing: border-box;
     margin: -1.5px auto;
