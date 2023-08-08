@@ -22,6 +22,7 @@ const ContainerOrders = styled.div`
         flex-direction: row;
         max-height: 320px;
         width: 100%;
+        padding: 10px 0px;
     }
     `
 

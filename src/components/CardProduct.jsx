@@ -113,7 +113,7 @@ const CardProduct = ({id, name, price, img , stock }) => {
     useEffect(() => {
         setTimeout(() => {
             setLoading(false)
-        }, 700)
+        }, 1000)
     }, []);
 
     if(loading) {
