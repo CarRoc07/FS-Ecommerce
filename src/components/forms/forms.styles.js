@@ -172,10 +172,10 @@ export const TextInfoEmail = styled.p`
 export const FormStyled = styled.form`
     display: flex;
     flex-direction: column;
-    gap: 10px;
+    gap: 4px;
 
     @media (max-width: 650px) {
-        gap: 16px;
+        gap: 2px;
     }
     `
 
